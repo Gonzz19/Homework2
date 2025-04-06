@@ -9,8 +9,10 @@ using namespace std;
 class CuentaBanco 
 {
 protected:
+    // Uso protected para que las clases derivadas puedan acceder a los atributos
     string titular;
     double saldo;
+
 public:
     // Destructor
     virtual ~CuentaBanco() = default;

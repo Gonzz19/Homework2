@@ -13,7 +13,8 @@ class CajaDeAhorros;
 class CuentaCorriente : public CuentaBanco 
 {
     private:
-        // para acceder mas facil a la caja de ahorros
+        // para acceder mas facil a la caja de ahorros y solo en la clase de cuenta corriente
+        // por eso private
         shared_ptr<CajaDeAhorros> caja;
         
     public:
